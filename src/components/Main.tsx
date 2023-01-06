@@ -1,4 +1,4 @@
-import React, {FC, useEffect, useRef, useState} from 'react';
+import React, {FC, useRef, useState} from 'react';
 import {useParams} from "react-router-dom";
 
 const timeToNormalView = (seconds: number): string => {
@@ -25,7 +25,7 @@ const Main: FC = () => {
 
     const connect = (e: React.MouseEvent) => {
         e.preventDefault()
-        socket.current = new WebSocket('ws://134.0.118.142:5000')
+        socket.current = new WebSocket('ws://localhost:5000')
         socket.current.onopen = () => {
             setConnected(true)
 
