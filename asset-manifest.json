@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/lotus-uems-client/static/css/main.5b7a8b22.css",
+    "main.js": "/lotus-uems-client/static/js/main.89362ede.js",
+    "index.html": "/lotus-uems-client/index.html",
+    "main.5b7a8b22.css.map": "/lotus-uems-client/static/css/main.5b7a8b22.css.map",
+    "main.89362ede.js.map": "/lotus-uems-client/static/js/main.89362ede.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5b7a8b22.css",
+    "static/js/main.89362ede.js"
+  ]
+}
